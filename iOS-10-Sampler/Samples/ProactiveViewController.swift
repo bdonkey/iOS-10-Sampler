@@ -37,7 +37,7 @@ class ProactiveViewController: UIViewController, NSUserActivityDelegate, CLLocat
     }
     
     private func createUserActivity() {
-        let activity = NSUserActivity(activityType: "com.shu223.iOS-10-Sampler.proactive")
+        let activity = NSUserActivity(activityType: "com.korteco.iOS-10-Sampler.proactive")
         
         // Enable features
         activity.isEligibleForHandoff = false
